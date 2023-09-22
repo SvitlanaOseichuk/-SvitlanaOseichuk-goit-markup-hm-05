@@ -372,15 +372,37 @@
                 </li>
             </ul>
                 </div>
-            
+                <div class="footer-subscribe">
+            <label class="footer-title-sm">Subscribe</label>
+                <input name="email" type="email"/>
+            <button>Subscribe</button>
+        </div>
         </div>
     </footer>
 </div>
 <!--START modal-->
 
-<div class="backdrop is-open" data-modal>
+<div class="backdrop is-open">
     <div class="modal">
-        <button class="modal-close" type="button" data-modal-close>X</button>
+        <button class="modal-close" type="button">X</button>
+        <h2>Leave your contacts and we will call you back</h2>
+        <form name="order-servise" autocomplete="on" novalidate>
+                <label for="username">Name</label>
+                <input id="username" name="username" type="text"/>
+            
+                <label for="phone-number">Phone</label>
+                <input id="phone-number" type="tel" name="phone"/>
+            
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email"/>
+            
+                <label for="comment" >Comment</label>
+                <input id="comment" type="text" name="Comment" placeholder="Text input"/>
+            
+            <input type="checkbox" id="policy"/> <!--change it-->
+            <label for="policy">I accept the terms and conditions of the Privacy Policy</label>
+            <button type="submit">Sent</button>
+        </form>
     </div>
 
 </div>
