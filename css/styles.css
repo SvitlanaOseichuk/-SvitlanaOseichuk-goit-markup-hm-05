@@ -556,10 +556,16 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-
+/*
 .footer-subscribe {
-    display: inline-block;
-}
+    display: flex;
+    margin-bottom: 16px;
+    border: 0;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+}*/
+
 
 .footer {
     padding: 100px 0;
