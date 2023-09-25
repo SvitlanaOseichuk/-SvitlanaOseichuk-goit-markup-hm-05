@@ -372,24 +372,31 @@
                 </li>
             </ul>
                 </div>
-                <div class="footer-subscribe">
+                <form class="footer-subscribe">
             <label for="footer-input" class="footer-title-sm sub-footer">Subscribe</label>
                 <input id="footer-input" class="footer-input" name="email" type="email" placeholder="E-mail"/>
             
-            <button class="fotter-buttom">Subscribe 
+            <button class="fotter-buttom">
+                <div  class="sub-button">
+                <span>Subscribe</span> 
                 <svg class="svg-footer-sub" width="24" height="20">
                     <use href="./images/icons.svg#icon-fottersubsc"></use>
                 </svg>
-            </button>
             </div>
+            </button>
+            </form>
         </div>
     </footer>
 </div>
 <!--START modal-->
 
-<div class="backdrop is-open">
+<div class="backdrop is-ope">
     <div class="modal">
-        <button class="modal-close" type="button">X</button>
+        <button class="modal-close" type="button">
+            <svg class="modal-svg-close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
         <h2 class="modal-title">Leave your contacts and we will call you back</h2>
         <form class="modal-form" name="order-servise" autocomplete="on" novalidate>
 
