@@ -663,7 +663,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
-    max-height: 584px;
+    min-height: 584px;
     overflow: auto;
     background-color: var(--c-window);
     border-radius: 4px;
@@ -689,7 +689,7 @@ img {
     border: 1px solid #0000001A;
     transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #e7e9fc1A;            
+    background-color: var(--c-border);            
 
 }
 
@@ -773,7 +773,7 @@ img {
 }
 
 .modal-textaera {
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .modal-input-textaera {
@@ -808,7 +808,7 @@ img {
 .modal-cb-check {
     width: 16px;
     height: 16px;
-    border: 1px solid var(--LIGHT-SLATE);
+    border: 1px solid rgba(46, 47, 66, 04);
     border-radius: 2px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -846,7 +846,9 @@ img {
     opacity: 0;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-label .modal-cb-check .modal-check-icon {
+
+
+.modal-checkbox-input:checked + .modal-cb-check .modal-check-icon {
      opacity: 1;
      background-color: var(--c-active);
      fill: var(--c-light);
