@@ -843,9 +843,6 @@ img {
     color: var(--c-active);
 }
 
-.modal-check-icon {
-    opacity: 0;
-}
 
 
 .modal-checkbox-input:checked + .modal-checkbox-label .modal-cb-check {
