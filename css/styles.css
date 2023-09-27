@@ -848,12 +848,11 @@ img {
 }
 
 
-
-.modal-checkbox-input:checked + .modal-checkbox-label .modal-check-icon {
-     opacity: 1;
-     background-color: var(--c-active);
-     fill: var(--c-light);
-     border: none;
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-cb-check {
+    opacity: 1;
+    background-color: var(--c-active);
+    fill: var(--c-light);
+    border: none;
 }
 
 .modal-buttom {
