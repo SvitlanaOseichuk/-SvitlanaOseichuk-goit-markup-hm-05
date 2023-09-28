@@ -60,15 +60,6 @@ img {
 }
 
 
-/*.section {
-    padding: 120px 0;
-}
-*/
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 .container {
     max-width: 1158px;
